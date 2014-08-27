@@ -29,6 +29,6 @@ The guts of this can be seen in the file [ColorPaletteGenerator.m](https://githu
 Obviously one could derive colours that sit outside the spectrum of sRGB which is why this method is implemented asynchronously as it needs to loop and filter results till it can sieve out matches for the **∆** value.
 
 ##Releases
-Releases are tagged in the git commit history using (mostly) [semantic versioning](http://semver.org). Check out the [releases and release notes](https://github.com/thirteen23/T23Kit-Colour/blob/master/RELEASE) for each version.
+Releases are tagged in the git commit history using (mostly) [semantic versioning](http://semver.org). Check out the [releases and release notes](https://github.com/thirteen23/ColorPalette/blob/master/RELEASE) for each version.
 
 Designed & maintained by [Thirteen23 Developers](mailto:dev@thirteen23.com). Distributed with the MIT license.
