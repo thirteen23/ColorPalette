@@ -2,7 +2,7 @@
 
 ###Example project utilizing the T23Kit-Colour cocoapod
 -------------
-**H**, **S**, & **V** obviously controls the **H**ue, **S**aturation, & **V**alue.
+**H**, **S**, & **V** obviously controls the **H** ue, **S** aturation, & **V** alue.
 
 **L**, **A**, **B** & **∆** sliders control the distance vector for each dimension in the CEILAB colourspace
 
