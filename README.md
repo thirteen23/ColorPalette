@@ -1,6 +1,6 @@
 #ColorPalette
 
-###Example project utilizing the T23Kit-Colour cocoapod
+####Example project utilizing the T23Kit-Colour cocoapod to generate colour palettes.
 -------------
 **H**, **S**, & **V** obviously controls the **H** ue, **S** aturation, & **V** alue.
 
