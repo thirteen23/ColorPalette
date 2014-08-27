@@ -9,7 +9,7 @@
 ![Alt text](https://github.com/thirteen23/ColorPalette/blob/master/screen_shot.jpg)
 
 ##Overview of Algorithm
-The heuristic for palette generation is a bit crude but when dealing with colour palette generation there isn't ever an exact science. It starts by understanding that the [CIELAB](http://en.wikipedia.org/wiki/Lab_color_space) colourspace is a human percepted colorspace with 3 dimensions. It just so happens that these three dimensions form an [ellipsoid](http://en.wikipedia.org/wiki/Ellipsoid) that's shaped like a somewhat deflated soccer ball.
+The heuristic for palette generation is a bit crude but when dealing with colour palette generation there isn't ever an exact science. It starts by understanding that the [CIELAB](http://en.wikipedia.org/wiki/Lab_color_space) colourspace is a human percepted colourspace with 3 dimensions. It just so happens that these three dimensions form an [ellipsoid](http://en.wikipedia.org/wiki/Ellipsoid) that's shaped like a somewhat deflated soccer ball.
 
 The algorithm works by taking a seed colour translating it into CIELAB colourspace and then bounds it by a randomly derived (from the delta values above) mini ellipsoid. It then generates random points within that ellipsoid until it acquires a valid neighbour colour.
 
