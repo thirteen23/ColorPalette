@@ -295,7 +295,7 @@ NSString *const ColorPaletteGeneratorNeighbourSize = @"NeighbourSize";
                                         alpha:ALPHA];
     DELTA =
         [color getDistanceMetricBetweenUIColor:newColor
-                                   withOptions:T23UIColourDistanceFormulaCEI76];
+                                   withOptions:T23UIColourDistanceFormulaCIE76];
 
     if (D >= DELTA) {
       *r = rgb.RGB_R;
